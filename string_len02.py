@@ -6,4 +6,6 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    a = len(a)
+    return a%2==0
+print(main("saloml"))

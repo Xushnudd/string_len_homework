@@ -7,4 +7,10 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    a = len(s1)
+    b = len(s2)
+    if b>a:
+        return s1
+    else:
+        return s2
+print(main("code", "exam"))

@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    s = len(s)
+    if s==3:
+        return True
+    else:
+        return False
+print(main('0pm'))

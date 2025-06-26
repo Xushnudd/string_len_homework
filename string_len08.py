@@ -8,4 +8,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a = len(s)
+    b = a//2
+    if b%2==1:
+        return s[b-1:b+1]
+    else:
+        return s[b]
+print(main("cool"))

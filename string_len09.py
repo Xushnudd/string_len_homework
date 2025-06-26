@@ -9,4 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    a = len(num1)
+    b = len(num2)
+    return a*b
+print(main('salom', "yaxshi"))

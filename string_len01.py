@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    a = len(a)
+    return a
+print(main("qwdas"))
